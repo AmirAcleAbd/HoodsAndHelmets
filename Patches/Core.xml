@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <!--Wearable above-->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_HatHood"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>EyeCover</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Collar"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>EyeCover</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <!--patched so they cant be worn under-->
+  <!--core-->
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_CowboyHat"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>Overhead</li>
+        <li>EyeCover</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_TribalHeaddress"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>Overhead</li>
+        <li>EyeCover</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_WarMask"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>Overhead</li>
+        <li>EyeCover</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_WarVeil"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>Overhead</li>
+        <li>EyeCover</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Collar"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>Overhead</li>
+        <li>EyeCover</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Collar"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>Overhead</li>
+        <li>EyeCover</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Collar"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>Overhead</li>
+        <li>EyeCover</li>
+      </layers>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Collar"]/apparel/layers</xpath>
+    <value>
+      <layers>
+        <li>Overhead</li>
+        <li>EyeCover</li>
+      </layers>
+    </value>
+  </Operation>
+
+</Patch>
+
+
